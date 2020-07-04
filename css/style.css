@@ -1,0 +1,102 @@
+/*font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Raleway', sans-serif;*/
+
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin: 0 auto;
+}
+/*HEADER*/
+.header{
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px #00000029;
+}
+.header .container{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1354px;
+}
+.header-nav-list{
+    display: flex;
+}
+.header .logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    line-height: 37px;
+    font-weight: 300;
+    color: #08A6E4;
+}
+.header-nav a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 15px;
+    color: #A5A5A5;
+    text-align: center;
+    padding: 0 47.5px;
+}
+.header-nav{
+    border-bottom: 3px solid #08A6E4;
+    padding:27px;
+}
+/*BANNER*/
+.banner-container{
+    text-align: center;
+    margin-top: 130px;
+}
+.banner-h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 49px;
+    line-height: 57px;
+    font-weight: 400;
+}
+.banner-p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 38px;
+}
+.banner-button{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #08A6E4;
+    padding: 22px 157px;
+    border-radius: 40px;
+    box-shadow: 5px 10px 14px #07ACE629;
+}
+.banner-image{
+    background-image: url("../assets/Background.png");
+    width: 100vw;
+    height: 594px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-h2{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 400 ;
+    margin: 100px 0;
+}
+/*DOTS*/
+
+/*BOXES*/
+
+/*PRICING*/
+
+/*FORM*/
+
+/*FOOTER*/
