@@ -83,7 +83,12 @@ a{
     background-position: center;
     background-size: cover;
 }
-.banner-h2{
+
+/*DOTS*/
+.dots{
+    height: 531px;
+}
+.dots-h2{
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
@@ -91,8 +96,95 @@ a{
     font-weight: 400 ;
     margin: 100px 0;
 }
-/*DOTS*/
-
+.dots-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.dot-red{
+    height: 168px;
+    width: 116px;
+}
+.red{
+    background-color: #FB3B64;
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    margin-left: 22px;
+    margin-right: 32px;
+    position: relative;
+}
+.red::after{
+    background-image: url("../assets/Person.svg");
+    position: absolute;
+    content: "";
+    height: 52px;
+    width: 44px;
+    background-repeat: no-repeat;
+    top: 5px;
+}
+.dot-blue{
+    height: 168px;
+    width: 176px;
+    margin: 0 184px;
+}
+.blue{
+    background-color: #08A6E4;
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    margin-left: 57px;
+    margin-right: 57px;
+    position: relative;
+}
+.blue::after {
+    background-image: url("../assets/Eye.svg");
+    position: absolute;
+    content: "";
+    height: 37px;
+    width: 66px;
+    background-repeat: no-repeat;
+    top: 14px;
+}
+.dot-green{
+    height: 168px;
+    width: 163px;
+}
+.green{
+    background-color: #55DFB4;
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+}
+.green::after {
+    background-image: url("../assets/Catalog.svg");
+    position: absolute;
+    content: "";
+    height: 48px;
+    width: 52px;
+    background-repeat: no-repeat;
+    top: 6px;
+}
+.dot1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 6px;
+    font-weight: 900;
+    margin-top: 14px;
+    margin-bottom: 19px;
+}
+.dot2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #A5A5A5;
+    font-weight: 400;
+}
 /*BOXES*/
 
 /*PRICING*/
