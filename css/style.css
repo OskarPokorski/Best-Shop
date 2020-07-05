@@ -307,8 +307,6 @@ a{
     display: block;
     margin-top: 50px;
 }
-
-
 .trumpet{
     width: 296px;
     height: 208px;
@@ -327,9 +325,152 @@ a{
     justify-content: center;
     align-items: center;
 }
-
 /*PRICING*/
-
+.pricing{
+    height: 716px;
+}
+.pricing .container{
+    width: 1266px;
+    height: 616px;
+    margin-top: 100px;
+}
+.pricing-title{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    margin-bottom: 50px;
+}
+.price-boxes{
+    height: 524px;
+    display: flex;
+    justify-content: space-between;
+}
+.price-box{
+    border-radius: 18px;
+    position: relative;
+}
+.price-box-one{
+    border: 1px solid #EB476E;
+    width: 372px;
+    height: 461px;
+    margin-top: 20px;
+    text-align: center;
+}
+.price-box-two{
+    border: 1px solid #07ACE6;
+    width: 405px;
+    height: 500px;
+    align-self: stretch;
+    box-shadow: 5px 10px 27px #07ACE629;
+    text-align: center;
+}
+.price-box-three{
+    border: 1px solid #55DFB4;
+    width: 372px;
+    height: 461px;
+    margin-top: 20px;
+    text-align: center;
+}
+.pricing-type{
+    font-family: 'Raleway', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 34px;
+}
+.pricing-price{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 46px;
+    line-height: 2px;
+    margin-top: 40px;
+}
+.price-box-one .pricing-price{
+    color: #EB476E;
+}
+.price-box-two .pricing-price{
+    color: #07ACE6;
+}
+.price-box-three .pricing-price{
+    color: #55DFB4;
+}
+.pricing-limited{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 38px;
+}
+.pricing-list-one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 175px;
+    margin-top: 100px;
+    margin-bottom: 67px;
+}
+.pricing-list-two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 198px;
+    margin-top: 62px;
+    margin-bottom: 71px;
+}
+.pricing-list-three{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 175px;
+    margin-top: 60px;
+    margin-bottom: 55px;
+}
+.pricing-list{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 41px;
+}
+.pricing-item::before{
+    content: "";
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 10px;
+    background-image: url("../assets/Ckechmark-1.svg");
+}
+.pricing-item--not::before{
+    content: "";
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 10px;
+    background-image: url("../assets/Close.svg");
+}
+.price-box a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 41px;
+    border-radius: 23px;
+    color: white;
+}
+.button-one{
+    background-color: #EB476E;
+    padding: 16px 57px;
+}
+.button-two{
+    background-color: #07ACE6;
+    padding: 16px 65px;
+    box-shadow: 5px 10px 14px #07ACE629;
+}
+.button-three{
+    background-color: #55DFB4;
+    padding: 16px 57px;
+}
 /*FORM*/
 
 /*FOOTER*/
