@@ -86,7 +86,7 @@ a{
 
 /*DOTS*/
 .dots{
-    height: 531px;
+    height: 431px;
 }
 .dots-h2{
     text-align: center;
@@ -186,9 +186,43 @@ a{
     font-weight: 400;
 }
 /*BOXES*/
+.boxes{
+    height: 1395px;
+    background-color: #F7F7F7;
+}
 
 /*PRICING*/
 
 /*FORM*/
 
 /*FOOTER*/
+.footer{
+    height: 89px;
+    background-color: #F7F7F7;
+    box-shadow: 0 -5px 40px #00000029;
+}
+.footer .container{
+    height: 89px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1354px;
+}
+.twitter{
+    margin-right: 20px;
+}
+.footer-logo-text{
+    color: #08A6E4;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 30px;
+}
+.footer-copyrights{
+    font-family: 'Open Sans', sans-serif;
+    color: #A5A5A5;
+    font-size: 11px;
+    line-height: 15px;
+    font-weight: 400;
+    margin-top: 6.5px;
+}
