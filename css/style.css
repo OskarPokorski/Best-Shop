@@ -189,6 +189,143 @@ a{
 .boxes{
     height: 1395px;
     background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+}
+.boxes .container{
+    width: 1124px;
+    height: 1184px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box{
+    height: 370px;
+}
+.box-one{
+    display:flex;
+    align-items: center;
+    background-color: white;
+    position: relative;
+}
+.box-one::after{
+    width: 180px;
+    height: 180px;
+    background-color: #FB3B64;
+    border-radius: 41px;
+    content: "";
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 75px;
+    right: 95px;
+}
+.box-one-text{
+    width: 416px;
+    height: 188px;
+    margin-left: 35px;
+    margin-right: 169px;
+}
+.box-one-text::after{
+    border: 4px solid #FB3B64;
+    width: 328px;
+    content: "";
+    display: block;
+    margin-top: 50px;
+}
+.macbook{
+    width: 386px;
+    height: 219px;
+    z-index: 2;
+    position: relative;
+    margin-top: 90px;
+}
+.box-one-title, .box-two-title, .box-three-title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 400 ;
+}
+.box-one-description, .box-two-description, .box-three-description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 30px;
+}
+.box-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+}
+.box-two::after{
+    width: 320px;
+    height: 320px;
+    background-color: #08A6E4;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    position: absolute;
+    left:70px;
+    top:12px;
+}
+.box-two-text{
+    width: 416px;
+    height: 230px;
+    margin-right: 20px;
+}
+.box-two-text::after{
+    border: 4px solid #08A6E4;
+    width: 328px;
+    content: "";
+    display: block;
+    margin-top: 50px;
+}
+.iphone{
+    width: 426px;
+    height: 328px;
+    margin-left: 70px;
+    margin-right: 192px;
+    position: relative;
+    z-index: 2;
+}
+.box-three{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box-three-text{
+    width: 554px;
+    height: 230px;
+    background-color: white;
+}
+.box-three-text::after {
+    border: 4px solid #55DFB4;
+    width: 328px;
+    content: "";
+    display: block;
+    margin-top: 50px;
+}
+
+
+.trumpet{
+    width: 296px;
+    height: 208px;
+    margin: 98px 82px 64px 62px;
+}
+.box-three-img{
+    background-color: #55DFB4;
+    height: 370px;
+    width: 440px;
+}
+.frame{
+    width: 623px;
+    height: 370px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*PRICING*/
