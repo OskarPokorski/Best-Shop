@@ -1,30 +1,54 @@
 /*font-family: 'Open Sans', sans-serif;*/
 /*font-family: 'Raleway', sans-serif;*/
 
-*{
+* {
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.container{
+
+.container {
     margin: 0 auto;
 }
+
 /*HEADER*/
-.header{
+.header {
     background-color: #ffffff;
     box-shadow: 0 3px 6px #00000029;
+
 }
-.header .container{
+
+.header .container {
     height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 1354px;
 }
-.header-nav-list{
+
+.header-nav-list {
     display: flex;
 }
+
+.list:nth-child(2) {
+    margin-right: 83px;
+    margin-left: 83px;
+}
+
+.list:nth-child(3) {
+    margin-right: 83px;
+}
+
+.list:hover {
+    box-shadow: 0 4px 0 #08A6E4;
+}
+
+.list {
+    padding: 25px 0;
+}
+
 .header .logo {
     font-family: 'Raleway', sans-serif;
     font-size: 32px;
@@ -32,39 +56,40 @@ a{
     font-weight: 300;
     color: #08A6E4;
 }
-.header-nav a{
+
+.header-nav-list a {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 11px;
     line-height: 15px;
     color: #A5A5A5;
     text-align: center;
-    padding: 0 47.5px;
+    padding: 27px 12px;
 }
-.header-nav{
-    border-bottom: 3px solid #08A6E4;
-    padding:27px;
-}
+
 /*BANNER*/
-.banner-container{
+.banner-container {
     text-align: center;
     margin-top: 130px;
 }
-.banner-h1{
+
+.banner-h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 49px;
     line-height: 57px;
     font-weight: 400;
 }
-.banner-p{
+
+.banner-p {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 22px;
     font-weight: 400;
     margin-top: 20px;
-    margin-bottom: 38px;
+    margin-bottom: 60px;
 }
-.banner-button{
+
+.banner-button {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 22px;
@@ -75,7 +100,8 @@ a{
     border-radius: 40px;
     box-shadow: 5px 10px 14px #07ACE629;
 }
-.banner-image{
+
+.banner-image {
     background-image: url("../assets/Background.png");
     width: 100vw;
     height: 594px;
@@ -85,28 +111,32 @@ a{
 }
 
 /*DOTS*/
-.dots{
+.dots {
     height: 431px;
 }
-.dots-h2{
+
+.dots-h2 {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
     line-height: 42px;
-    font-weight: 400 ;
+    font-weight: 400;
     margin: 100px 0;
 }
-.dots-container{
+
+.dots-container {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
-.dot-red{
+
+.dot-red {
     height: 168px;
     width: 116px;
 }
-.red{
+
+.red {
     background-color: #FB3B64;
     height: 63px;
     width: 63px;
@@ -115,7 +145,8 @@ a{
     margin-right: 32px;
     position: relative;
 }
-.red::after{
+
+.red::after {
     background-image: url("../assets/Person.svg");
     position: absolute;
     content: "";
@@ -124,12 +155,14 @@ a{
     background-repeat: no-repeat;
     top: 5px;
 }
-.dot-blue{
+
+.dot-blue {
     height: 168px;
     width: 176px;
     margin: 0 184px;
 }
-.blue{
+
+.blue {
     background-color: #08A6E4;
     height: 63px;
     width: 63px;
@@ -138,6 +171,7 @@ a{
     margin-right: 57px;
     position: relative;
 }
+
 .blue::after {
     background-image: url("../assets/Eye.svg");
     position: absolute;
@@ -147,11 +181,13 @@ a{
     background-repeat: no-repeat;
     top: 14px;
 }
-.dot-green{
+
+.dot-green {
     height: 168px;
     width: 163px;
 }
-.green{
+
+.green {
     background-color: #55DFB4;
     height: 63px;
     width: 63px;
@@ -160,6 +196,7 @@ a{
     margin-right: 50px;
     position: relative;
 }
+
 .green::after {
     background-image: url("../assets/Catalog.svg");
     position: absolute;
@@ -169,7 +206,8 @@ a{
     background-repeat: no-repeat;
     top: 6px;
 }
-.dot1{
+
+.dot1 {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     line-height: 24px;
@@ -178,37 +216,43 @@ a{
     margin-top: 14px;
     margin-bottom: 19px;
 }
-.dot2{
+
+.dot2 {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     line-height: 19px;
     color: #A5A5A5;
     font-weight: 400;
 }
+
 /*BOXES*/
-.boxes{
+.boxes {
     height: 1395px;
     background-color: #F7F7F7;
     display: flex;
     align-items: center;
 }
-.boxes .container{
+
+.boxes .container {
     width: 1124px;
     height: 1184px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.box{
+
+.box {
     height: 370px;
 }
-.box-one{
-    display:flex;
+
+.box-one {
+    display: flex;
     align-items: center;
     background-color: white;
     position: relative;
 }
-.box-one::after{
+
+.box-one::after {
     width: 180px;
     height: 180px;
     background-color: #FB3B64;
@@ -220,46 +264,53 @@ a{
     top: 75px;
     right: 95px;
 }
-.box-one-text{
+
+.box-one-text {
     width: 416px;
     height: 188px;
     margin-left: 35px;
     margin-right: 169px;
 }
-.box-one-text::after{
+
+.box-one-text::after {
     border: 4px solid #FB3B64;
     width: 328px;
     content: "";
     display: block;
     margin-top: 50px;
 }
-.macbook{
+
+.macbook {
     width: 386px;
     height: 219px;
     z-index: 2;
     position: relative;
     margin-top: 90px;
 }
-.box-one-title, .box-two-title, .box-three-title{
+
+.box-one-title, .box-two-title, .box-three-title {
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
     line-height: 42px;
-    font-weight: 400 ;
+    font-weight: 400;
 }
+
 .box-one-description, .box-two-description, .box-three-description {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 22px;
     margin-top: 30px;
 }
-.box-two{
+
+.box-two {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
     position: relative;
 }
-.box-two::after{
+
+.box-two::after {
     width: 320px;
     height: 320px;
     background-color: #08A6E4;
@@ -267,22 +318,25 @@ a{
     content: "";
     display: block;
     position: absolute;
-    left:70px;
-    top:12px;
+    left: 70px;
+    top: 12px;
 }
-.box-two-text{
+
+.box-two-text {
     width: 416px;
     height: 230px;
     margin-right: 20px;
 }
-.box-two-text::after{
+
+.box-two-text::after {
     border: 4px solid #08A6E4;
     width: 328px;
     content: "";
     display: block;
     margin-top: 50px;
 }
-.iphone{
+
+.iphone {
     width: 426px;
     height: 328px;
     margin-left: 70px;
@@ -290,16 +344,19 @@ a{
     position: relative;
     z-index: 2;
 }
-.box-three{
+
+.box-three {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.box-three-text{
+
+.box-three-text {
     width: 554px;
     height: 230px;
     background-color: white;
 }
+
 .box-three-text::after {
     border: 4px solid #55DFB4;
     width: 328px;
@@ -307,17 +364,20 @@ a{
     display: block;
     margin-top: 50px;
 }
-.trumpet{
+
+.trumpet {
     width: 296px;
     height: 208px;
     margin: 98px 82px 64px 62px;
 }
-.box-three-img{
+
+.box-three-img {
     background-color: #55DFB4;
     height: 370px;
     width: 440px;
 }
-.frame{
+
+.frame {
     width: 623px;
     height: 370px;
     background-color: white;
@@ -325,16 +385,19 @@ a{
     justify-content: center;
     align-items: center;
 }
+
 /*PRICING*/
-.pricing{
+.pricing {
     height: 716px;
 }
-.pricing .container{
+
+.pricing .container {
     width: 1266px;
     height: 616px;
     margin-top: 100px;
 }
-.pricing-title{
+
+.pricing-title {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
@@ -342,23 +405,27 @@ a{
     line-height: 42px;
     margin-bottom: 50px;
 }
-.price-boxes{
+
+.price-boxes {
     height: 524px;
     display: flex;
     justify-content: space-between;
 }
-.price-box{
+
+.price-box {
     border-radius: 18px;
     position: relative;
 }
-.price-box-one{
+
+.price-box-one {
     border: 1px solid #EB476E;
     width: 372px;
     height: 461px;
     margin-top: 20px;
     text-align: center;
 }
-.price-box-two{
+
+.price-box-two {
     border: 1px solid #07ACE6;
     width: 405px;
     height: 500px;
@@ -366,42 +433,50 @@ a{
     box-shadow: 5px 10px 27px #07ACE629;
     text-align: center;
 }
-.price-box-three{
+
+.price-box-three {
     border: 1px solid #55DFB4;
     width: 372px;
     height: 461px;
     margin-top: 20px;
     text-align: center;
 }
-.pricing-type{
+
+.pricing-type {
     font-family: 'Raleway', sans-serif;
     font-size: 21px;
     font-weight: 700;
     margin-top: 34px;
 }
-.pricing-price{
+
+.pricing-price {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 46px;
     line-height: 2px;
     margin-top: 40px;
 }
-.price-box-one .pricing-price{
+
+.price-box-one .pricing-price {
     color: #EB476E;
 }
-.price-box-two .pricing-price{
+
+.price-box-two .pricing-price {
     color: #07ACE6;
 }
-.price-box-three .pricing-price{
+
+.price-box-three .pricing-price {
     color: #55DFB4;
 }
-.pricing-limited{
+
+.pricing-limited {
     font-family: 'Raleway', sans-serif;
     font-size: 12px;
     font-weight: 700;
     margin-top: 38px;
 }
-.pricing-list-one{
+
+.pricing-list-one {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -410,7 +485,8 @@ a{
     margin-top: 100px;
     margin-bottom: 67px;
 }
-.pricing-list-two{
+
+.pricing-list-two {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -419,7 +495,8 @@ a{
     margin-top: 62px;
     margin-bottom: 71px;
 }
-.pricing-list-three{
+
+.pricing-list-three {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -428,13 +505,15 @@ a{
     margin-top: 60px;
     margin-bottom: 55px;
 }
-.pricing-list{
+
+.pricing-list {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 41px;
 }
-.pricing-item::before{
+
+.pricing-item::before {
     content: "";
     width: 11px;
     height: 11px;
@@ -442,7 +521,8 @@ a{
     margin-right: 10px;
     background-image: url("../assets/Ckechmark-1.svg");
 }
-.pricing-item--not::before{
+
+.pricing-item--not::before {
     content: "";
     width: 11px;
     height: 11px;
@@ -450,7 +530,8 @@ a{
     margin-right: 10px;
     background-image: url("../assets/Close.svg");
 }
-.price-box a{
+
+.price-box a {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 13px;
@@ -458,45 +539,195 @@ a{
     border-radius: 23px;
     color: white;
 }
-.button-one{
+
+.button-one {
     background-color: #EB476E;
     padding: 16px 57px;
 }
-.button-two{
+
+.button-two {
     background-color: #07ACE6;
     padding: 16px 65px;
     box-shadow: 5px 10px 14px #07ACE629;
 }
-.button-three{
+
+.button-three {
     background-color: #55DFB4;
     padding: 16px 57px;
 }
+
 /*FORM*/
+.form .container {
+    height: 590px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box {
+    width: 896px;
+    height: 376px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-box-text {
+    height: 165px;
+    width: 342px;
+
+}
+
+.form-box-form {
+    width: 440px;
+    height: 372px;
+}
+
+h4 {
+    font-size: 48px;
+    line-height: 57px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.form p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    padding-top: 22px;
+    padding-bottom: 38px;
+}
+
+.form span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #A5A5A5;
+}
+
+.form img {
+    margin-right: 10px;
+}
+
+.mail {
+    margin-right: 20px;
+}
+
+.form-top {
+    width: 440px;
+    height: 157px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-btm {
+    width: 440px;
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+
+}
+
+.form-label {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 3.28px;
+    color: #08A6E4;
+}
+
+.form-input {
+    border: none;
+    border-bottom: 1px solid #95989A;
+}
+
+.btn {
+    background: #08A6E4 0 0 no-repeat padding-box;
+    box-shadow: 5px 10px 14px #07ACE629;
+    border-radius: 35px;
+    padding: 20px 97px;
+    color: white;
+    border: none;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 18px;
+    align-self: flex-end;
+}
+
+.form__checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 1.375rem;
+}
+
+.form__checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.form__checkbox .checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border: 1px solid #707070;
+    border-radius: 4px;
+}
+
+.form__checkbox input:checked ~ .checkbox {
+    background-image: url(../assets/Checkmark.svg);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.form__checkbox .consent__text {
+    font-size: 0.75rem;
+    color: #707070;
+    line-height: 17px;
+}
 
 /*FOOTER*/
-.footer{
+.footer {
     height: 89px;
     background-color: #F7F7F7;
     box-shadow: 0 -5px 40px #00000029;
 }
-.footer .container{
+
+.footer .container {
     height: 89px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 1354px;
 }
-.twitter{
+
+.twitter {
     margin-right: 20px;
 }
-.footer-logo-text{
+
+.footer-logo-text {
     color: #08A6E4;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     font-size: 26px;
     line-height: 30px;
 }
-.footer-copyrights{
+
+.footer-copyrights {
     font-family: 'Open Sans', sans-serif;
     color: #A5A5A5;
     font-size: 11px;
